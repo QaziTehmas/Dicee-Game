@@ -10,7 +10,7 @@ document.getElementsByClassName("img2")[0].setAttribute("src", randImgSrc2);
 
 
 if (randomNumber1 > randomNumber2) {
-    document.querySelector("h1").innerHTML = "🚩 Play 1 Wins!";
+    document.querySelector("h1").innerHTML = "🚩 Player 1 Wins!";
 }
 else if (randomNumber2 > randomNumber1) {
     document.querySelector("h1").innerHTML = "Player 2 Wins! 🚩";
